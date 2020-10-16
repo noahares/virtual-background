@@ -26,3 +26,7 @@ npm install
 ## Execute
 
 First start node with `node bodypix/app.js` then start python with `python virtual_background.py`.
+
+## Acknowledgment
+
+Based on [this article](https://elder.dev/posts/open-source-virtual-background/)
