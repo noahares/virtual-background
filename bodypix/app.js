@@ -15,7 +15,6 @@ const http = require('http');
       segmentation = await net.segmentPerson(image);
       res.writeHead(200, { 'Content-Type': 'application/octet-stream' });
       res.write(Buffer.from(segmentation.data));
-      console.log(segmentation.data);
       res.end();
       tf.dispose(image);
     });
